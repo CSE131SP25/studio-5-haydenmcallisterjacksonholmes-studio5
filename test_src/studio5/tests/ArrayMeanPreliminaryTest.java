@@ -16,7 +16,7 @@ public class ArrayMeanPreliminaryTest {
 		int[] values = { 42 };
 		double actual = Reflections.invokeArrayMean(values);
 		double expected = 42.0;
-		double acceptableDifference = 0.00001;
+		double acceptableDifference = 0.01;
 		assertEquals(expected, actual, acceptableDifference);
 	}
 

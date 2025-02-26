@@ -25,7 +25,7 @@ public class ArraySumPreliminaryTest {
 	public void testArrayLength1() {
 		int[] values = { 42 };
 		int actual = Methods.arraySum(values);
-		int expected = values[0];
+		int expected = 42;
 		assertEquals(expected, actual);
 	}
 
